@@ -63,7 +63,8 @@ export default {
 .main_text {
   color: var(--white);
   font-family: var(--font-family-roboto_slab);
-  font-size: var(--font-size-xxxl);
+  font-size: 42px;
+  line-height: 50px;
   font-weight: 400;
   height: 401px;
   letter-spacing: 0;

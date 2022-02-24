@@ -1,27 +1,34 @@
 <template>
   <div class="container-center-horizontal">
     <div class="dogefrens screen">
-      <div class="header">
+      <div style="z-index: 999999" class="header">
         <div class="flex-row">
           <div class="logo valign-text-middle">{{ logo }}</div>
           <div class="right">
             <img
+              @click="toWeb('https://discord.gg/mMZQzsBZXX')"
               class="discord"
               src="https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b5868bbaf460383ab3dec/img/discord-1@2x.svg"
             />
+            
             <img
+              @click="toWeb('https://twitter.com/dogelife_nft')"
               class="right-item"
               src="https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b5868bbaf460383ab3dec/img/twitter-1@2x.svg"
             />
             <img
+              @click="toWeb('https://opensea.io/collection/dogelife')"
+              
               class="opensea"
               src="https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b472ff85eb4260be95a75/img/opensea@2x.svg"
             />
             <img
+              @click="toWeb('https://instagram.com/dogefrens')"
               class="right-item"
               src="https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b5868bbaf460383ab3dec/img/instagram-1@2x.svg"
             />
             <img
+              @click="toWeb('https://medium.com/@dogefrens')"
               class="right-item"
               src="https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b472ff85eb4260be95a75/img/medium@2x.svg"
             />
@@ -80,6 +87,11 @@ export default {
     "roadmapProps",
     "faqsProps",
   ],
+  methods:{
+    toWeb(url) {
+      window.location.href = url;
+    }
+  }
 };
 </script>
 
@@ -161,7 +173,7 @@ export default {
   align-self: flex-end;
   cursor: pointer;
   height: 70px;
-  margin-bottom: -3px;
+  /* margin-bottom: -0px; */
   margin-left: 27px;
   transition: all 0.2s ease;
   width: 64px;
@@ -183,7 +195,8 @@ export default {
 
 .overlap-group {
   align-items: flex-start;
-  background-color: #f1d649;
+  /* background-color: #f1d649; */
+  background-color: #d4d4d4;
   border: 3px solid var(--black);
   border-radius: 20px;
   display: flex;

@@ -132,10 +132,10 @@ export default {
 }
 
 .community-land-on-sandbox {
-  height: 118px;
+  /* height: 108px; */
   letter-spacing: 0;
   margin-right: 2px;
-  margin-top: 21px;
+  /* margin-top: 12px; */
   text-align: center;
   width: 372px;
 }

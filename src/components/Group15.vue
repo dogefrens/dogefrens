@@ -1,7 +1,7 @@
 <template>
   <div class="group-1">
-    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">FEBRUARY 20th</div>
-    <div class="doge-frens-launch-day-1 valign-text-middle robotoslab-normal-white-36px">Doge Frens Launch Day!</div>
+    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">MARCH 5th, 2022</div>
+    <div class="doge-frens-launch-day-1-15 valign-text-middle robotoslab-normal-white-36px">Doge Frens join the universe. Helping Dogelifes build a greater community!</div>
   </div>
 </template>
 
@@ -21,16 +21,17 @@ export default {
 }
 
 .february-20th-1 {
-  height: 71px;
+  height: 51px;
   letter-spacing: 0;
-  min-width: 419px;
+  min-width: 469px;
   text-align: center;
 }
 
-.doge-frens-launch-day-1 {
-  height: 47px;
+.doge-frens-launch-day-1-15 {
+  height: 120px;
   letter-spacing: 0;
-  min-width: 409px;
+  min-width: 469px;
   text-align: center;
+  /* margin-top: -50px; */
 }
 </style>

@@ -1,20 +1,20 @@
 export const landingData = {
     overlapGroup7: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/6215d0fa73258e840df8ccfb/img/stars@1x.png",
     title: "DOGEVERSE",
-    mintOrMigrateYour: "Mint or Migrate Your DogeLife Samurai Doge is a movement of 10,000 animated NFTs on the Ethereum Blockchain. Owning one of our NFTs gives you the mark of the warrior to seek glory in the fields of decentralized battles.NFTs",
+    mintOrMigrateYour: "DogeLife is the First Doge NFT Collection powered on Ethereum before Bored Ape Yacht Club (Minted March 15th, 2021).It is also an important component for the upcoming Dogeverse.Check them out on Opensea below!",
     mintPrice0069Eth: "Mint Price: 0.069 ETH",
     x6471000Left: "647/1000 Left",
     overlapGroup1: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/button-mint@1x.png",
     mint: "MINT",
     overlapGroup: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/button-os@1x.png",
     buyOnOs: "BUY ON OS",
-    doge_Avatar221: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/doge-avatar22-1@1x.png",
-    landing_Image21: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/landing-image2-1@1x.png",
+    doge_Avatar221: "./img/doge-avatar22-1@1x.png",
+    landing_Image21: "./img/landing-image2-1@1x.png",
 };
 
 export const introData = {
     main_Bg: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b51f35c1c0bf753cdc814/img/main-bg@1x.png",
-    main_Text: "Doge Frens is a community drive collection of 6999<br /> randomly generated NFTs on the Ethereum <br />blockchain. Our goal is to build the biggest group of <br />frens in the Dogeverse. For price of 0.069 ETH you <br />receive 1 Doge Fren NFT that provides you",
+    main_Text: "The AnuDoges, who come from nowhere, upgraded selected DogeLifes into a new group of strong doges. These doges worked for the AnuDoges to help them get resources on the planet. They soon built a great community and named themselves the Doge Frens. After AnuDoges left, 6999 Doge Frens peacefully lived on the planet powered by the Ethereum blockchain with DogeLifes.",
     main_Image: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/main-image@2x.png",
 };
 
@@ -66,7 +66,7 @@ export const faqsData = {
 };
 
 export const dogefrensData = {
-    logo: "Doge Frens",
+    logo: "Dogeverse",
     connectWallet: "CONNECT WALLET",
     footer: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/footer@1x.png",
     landingProps: landingData,

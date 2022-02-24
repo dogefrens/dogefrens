@@ -5,9 +5,9 @@
         <div class="accomplished valign-text-middle robotoslab-normal-black-28px">{{ accomplished }}</div>
       </div>
       <div class="group-16">
-        <div class="february-20th valign-text-middle robotoslab-normal-white-54px">{{ february20Th }}</div>
+        <div class="february-20th valign-text-middle robotoslab-normal-white-54px">MARCH 15th, 2021</div>
         <div class="doge-frens-launch-day valign-text-middle robotoslab-normal-white-36px">
-          {{ dogeFrensLaunchDay }}
+          DogeLife Launch Day!
         </div>
       </div>
     </div>
@@ -20,8 +20,8 @@
       </div>
       <group15 />
     </div>
-    <frame6 />
-    <frame6 :className="frame61Props.className" />
+    <frame8 />
+    <frame7 :className="frame61Props.className" />
     <frame6 :className="frame62Props.className" />
     <img class="roadmap_dig" :src="roadmap_Dig" />
     <h1 class="title-1 valign-text-middle">{{ title }}</h1>
@@ -32,11 +32,15 @@
 <script>
 import Group15 from "./Group15";
 import Frame6 from "./Frame6";
+import Frame7 from "./Frame7";
+import Frame8 from "./Frame8";
 export default {
   name: "Roadmap",
   components: {
     Group15,
     Frame6,
+    Frame7,
+    Frame8,
   },
   props: [
     "accomplished",
@@ -111,7 +115,7 @@ export default {
 .february-20th {
   height: 71px;
   letter-spacing: 0;
-  min-width: 419px;
+  min-width: 469px;
   text-align: center;
 }
 

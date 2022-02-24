@@ -3,16 +3,16 @@
     <div class="overlap-group-4">
       <div class="coming-soon-1 valign-text-middle robotoslab-normal-black-28px">COMING SOON</div>
     </div>
-    <group16 />
+    <group18 />
   </div>
 </template>
 
 <script>
-import Group16 from "./Group16";
+import Group18 from "./Group18";
 export default {
-  name: "Frame6",
+  name: "Frame8",
   components: {
-    Group16,
+    Group18,
   },
   props: ["className"],
 };
