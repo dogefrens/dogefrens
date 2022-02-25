@@ -111,6 +111,7 @@ export default {
   letter-spacing: 0;
   margin-top: 18px;
   width: 742px;
+  line-height: 44px;
 }
 
 .mint-price-0069-eth {
