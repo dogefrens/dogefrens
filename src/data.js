@@ -1,6 +1,6 @@
 export const landingData = {
     overlapGroup7: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/6215d0fa73258e840df8ccfb/img/stars@1x.png",
-    title: "DOGEVERSE",
+    title: "ABOUT DOGELIFE",
     mintOrMigrateYour: "DogeLife is the First Doge NFT Collection powered on Ethereum before Bored Ape Yacht Club (Minted March 15th, 2021).It is also an important component for the upcoming Dogeverse.Check them out on Opensea below!",
     mintPrice0069Eth: "Mint Price: 0.069 ETH",
     x6471000Left: "647/1000 Left",
@@ -14,7 +14,7 @@ export const landingData = {
 
 export const introData = {
     main_Bg: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/620b51f35c1c0bf753cdc814/img/main-bg@1x.png",
-    main_Text: "The AnuDoges, who come from nowhere, upgraded selected DogeLifes into a new group of strong doges. These doges worked for the AnuDoges to help them get resources on the planet. They soon built a great community and named themselves the Doge Frens. After AnuDoges left, 6999 Doge Frens peacefully lived on the planet powered by the Ethereum blockchain with DogeLifes.",
+    main_Text: "The AnuDoges, from a mysterious planet, randomly selected some DogeLifes to upgrade into a group of modern doges. These doges help AnuDoges acquire resources on the planet to return the favor. They soon established a great community and named themselves the Doge Frens. After the AnuDoges left, the remaining 6999 Doge Frens peacefully lived with DogeLifes on the planet powered by the Ethereum blockchain.",
     main_Image: "https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/main-image@2x.png",
 };
 

@@ -28,6 +28,12 @@
   flex-direction: column;
   justify-content: center;
 }
+.valign-text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
 
 * {
   box-sizing: border-box;

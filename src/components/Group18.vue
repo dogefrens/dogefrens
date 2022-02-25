@@ -1,7 +1,7 @@
 <template>
   <div class="group-1">
-    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">APRIL 1st, 2022</div>
-    <div class="doge-frens-launch-day-1-18 valign-text-middle robotoslab-normal-white-36px">THE DOGEVERSE ALPHA PLUS ROADMAP 2.0 (It’s not an April joke.)</div>
+    <div class="february-20th-1 valign-text-left robotoslab-normal-white-54px">APRIL 1st, 2022</div>
+    <div class="doge-frens-launch-day-1-18 valign-text-left robotoslab-normal-white-36px">THE DOGEVERSE ALPHA PLUS ROADMAP 2.0 (It’s not an April joke.)</div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="group-1">
-    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">MARCH 5th, 2022</div>
-    <div class="doge-frens-launch-day-1-15 valign-text-middle robotoslab-normal-white-36px">Doge Frens join the universe. Helping Dogelifes build a greater community!</div>
+    <div class="february-20th-1 valign-text-left robotoslab-normal-white-54px">MARCH 13TH, 2022</div>
+    <div class="doge-frens-launch-day-1-15 valign-text-left robotoslab-normal-white-36px">Doge Frens join the universe. Helping Dogelifes build a greater community!</div>
   </div>
 </template>
 

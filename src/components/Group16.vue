@@ -1,7 +1,7 @@
 <template>
   <div class="group-1">
-    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">MARCH 15th, 2022</div>
-    <div class="doge-frens-launch-day-1 valign-text-middle robotoslab-normal-white-36px">Happy Birthday DogeLife!! You can migrate your DogeLife NFTs into a new ERC721 smart contract. Not mandatory but suggested.</div>
+    <div class="february-20th-1 valign-text-left robotoslab-normal-white-54px">MARCH 15th, 2022</div>
+    <div class="doge-frens-launch-day-1 valign-text-left robotoslab-normal-white-36px">Happy Birthday DogeLife!! You can migrate your DogeLife NFTs into a new ERC721 smart contract.</div>
   </div>
 </template>
 

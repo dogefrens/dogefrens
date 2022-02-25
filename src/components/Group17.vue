@@ -1,7 +1,7 @@
 <template>
   <div class="group-1">
-    <div class="february-20th-1 valign-text-middle robotoslab-normal-white-54px">MARCH 22nd, 2022</div>
-    <div class="doge-frens-launch-day-1 valign-text-middle robotoslab-normal-white-36px">$DGOLD and DAO will be launched. You can earn $DGOLD by staking your NFTs.</div>
+    <div class="february-20th-1 valign-text-left robotoslab-normal-white-54px">MARCH 22nd, 2022</div>
+    <div class="doge-frens-launch-day-1 valign-text-left robotoslab-normal-white-36px">$DGOLD and DAO will be launched. You can earn $DGOLD by staking your NFTs.</div>
   </div>
 </template>
 

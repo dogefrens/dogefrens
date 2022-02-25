@@ -2,17 +2,17 @@
   <div class="landing animate-enter4" show-on-scroll>
     <div class="overlap-group7" :style="{ 'background-image': 'url(' + overlapGroup7 + ')' }">
       <div class="flex-col">
-        <div class="title valign-text-middle">{{ title }}</div>
-        <div class="mint-or-migrate-your valign-text-middle" style="line-height: 24px;">{{ mintOrMigrateYour }}</div>
-        <div class="mint-price-0069-eth valign-text-middle robotoslab-semi-bold-white-30px">{{ mintPrice0069Eth }}</div>
-        <div class="x6471000-left valign-text-middle robotoslab-semi-bold-white-30px">{{ x6471000Left }}</div>
+        <div class="title valign-text-middle">ABOUT DOGELIFE</div>
+        <div class="mint-or-migrate-your valign-text-middle" style="line-height:">{{ mintOrMigrateYour }}</div>
+        <!-- <div class="mint-price-0069-eth valign-text-middle robotoslab-semi-bold-white-30px">{{ mintPrice0069Eth }}</div>
+        <div class="x6471000-left valign-text-middle robotoslab-semi-bold-white-30px">{{ x6471000Left }}</div> -->
         <div class="flex-row-1">
           <div class="mint">
             <!-- <div class="overlap-group1" :style="{ 'background-image': 'url(' + overlapGroup1 + ')' }">
               <div class="mint-1 valign-text-middle">{{ mint }}</div>
             </div> -->
             <div class="overlap-group1" style="background-color: #d4d4d4;border-radius: 15px;">
-              <div class="mint-1 valign-text-middle">{{ mint }}</div>
+              <div class="mint-1 valign-text-middle">MIGRATE</div>
             </div>
           </div>
           <div class="os">
@@ -97,8 +97,8 @@ export default {
   font-weight: 700;
   height: 127px;
   letter-spacing: 0;
-  min-width: 582px;
-  text-align: center;
+  min-width: 982px;
+  text-align: left;
 }
 
 .mint-or-migrate-your {
