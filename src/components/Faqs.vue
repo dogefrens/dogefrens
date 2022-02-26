@@ -2,30 +2,68 @@
   <div class="faqs">
     <div class="fa-qs-title valign-text-middle">{{ faqsTitle }}</div>
     <div class="frame-10">
-      <div class="overlap-group-5">
-        <div @click="boxshow = !boxshow" class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">WHAT IS DOGELIFE?</div>
-        <!--这里的name 和 css 类名第一个字段要一样-->
-        <!-- <transition name="draw">   
-            <div class="box"  v-show="boxshow">
-              Dogelife is the first 1k Doge collection minted on March 15th 2021. The creator was inspired by both Cryptopunks and the Dogecoin. Each Dogelife is displayed as 24x24 pixel art, programmatically generated, and scaled up to 336x336 pixels.
-            </div>
-        </transition> -->
-      </div>
-      <div class="overlap-group1-2 border-6px-black">
-        <div class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">WHY DOGE FRENS</div>
-      </div>
-      <div class="overlap-group2-1 border-6px-black">
-        <div class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">WHEN CAN I MINT DOGE FRENS?</div>
-      </div>
-      <div class="overlap-group3 border-6px-black">
-        <div class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">HOW DO I JOIN THE DOGE FRENS COMMNUITY?</div>
-      </div>
-      <div class="overlap-group4 border-6px-black">
-        <div class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">WHAT IS $DGOLD?</div>
-      </div>
-      <div class="overlap-group5 border-6px-black">
-        <div class="what-is-doge-fren valign-text-middle robotoslab-semi-bold-black-54px">WHY DOGEVERSE</div>
-      </div>
+      <el-collapse v-model="activeNames" @change="handleChange">
+  <el-collapse-item  class="overlap-group-5" name="1">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        WHAT IS DOGELIFE?
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">Dogelife is the first 1k Doge collection minted on March 15th 2021. The creator was inspired by both Cryptopunks and the Dogecoin. Each Dogelife is displayed as 24x24 pixel art, programmatically generated, and scaled up to 336x336 pixels.</div>
+  </el-collapse-item>
+  <el-collapse-item  class="overlap-group-5" style="margin-top: 30px;" name="2">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        WHY DOGE FRENS
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">Most NFT collections on the market usually have a size of 10k or more NFTs. We need to expand our collection to build a greater community with more members. Doge Frens come in a joyful range of colors, traits, and sizes with a collection size of 6,999.</div>
+  </el-collapse-item>
+
+  <el-collapse-item  class="overlap-group-5" style="margin-top: 30px;" name="3">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        WHEN CAN I MINT DOGE FRENS?
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">
+      The presale take place on March 10th. <br/>
+      Public sale will start on March 13th. <br/>
+      All NFTs will be revealed on the birthday of DogeLife, March 15th.</div>
+  </el-collapse-item>
+
+  <el-collapse-item  class="overlap-group-5" style="margin-top: 30px;" name="4">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        HOW DO I JOIN THE DOGE FRENS COMMNUITY?
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">
+      Join our Dogelife community discord server here: https://discord.gg/mMZQzsBZXX <br/>
+      Yes. We are in the same community with DogeLifes. So, be nice.</div>
+  </el-collapse-item>
+
+
+  <el-collapse-item  class="overlap-group-5" style="margin-top: 30px;" name="5">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        WHAT IS $DGOLD?
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">DGOLD is a utility token in the ecosystem of the Dogeverse. You can change the name for your doge NFTs by burning them. It also has voting power for the DAO coming along with it. Many more utilities will be added in the future that may include trading your DGOLD for items and NFTs in the Dogeverse. DGOLD can be yielded by staking your NFTs and can also be granted as a reward from the p2e game. There will be more details about DGOLD and DAO in a litepaper we are about to announce so stay tuned!</div>
+  </el-collapse-item>
+
+  <el-collapse-item  class="overlap-group-5" style="margin-top: 30px;" name="6">
+    <template slot="title">
+      <p class="valign-text-middle robotoslab-semi-bold-black-54px">
+        WHY DOGEVERSE?
+      </p>
+    </template>
+    <div class="valign-text-middle robotoslab-semi-bold-black-54px" style="font-size: 2.25rem;">We will build our Dogeverse on both NFT World and the Sandbox Land for our community members to hang out and explore. We will finally make a p2e game upon the Dogeverse to level up the fun and bring you passive incomes. A digital nation where people globally come together with their DogeLifes and Doge Frens to play, earn, and live.</div>
+  </el-collapse-item>
+  
+</el-collapse>
+      
     </div>
   </div>
 </template>
@@ -74,10 +112,10 @@ export default {
 }
 
 .frame-10 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* align-items: flex-start; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
   margin-right: 1px;
   margin-top: 192px;
   min-height: 1150px;
@@ -85,14 +123,17 @@ export default {
 }
 
 .overlap-group-5 {
-  align-items: flex-start;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/faq1@1x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 162px;
+  /* align-items: flex-start; */
+  /* background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62081d37ad4cbb51c8d152a9/releases/62081d78ad4cbb51c8d152aa/img/faq1@1x.svg); */
+  /* background-size: 100% 100%; */
+  /* display: flex; */
+  /* height: 162px; */
   margin-left: -6px;
   min-width: 1512px;
   padding: 45px 78px;
+  border: 5px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
 }
 
 .what-is-doge-fren {
